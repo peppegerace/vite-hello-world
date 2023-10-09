@@ -1,12 +1,27 @@
-<script setup>
+<script>
+import AppTitle from './components/AppTitle.vue'
+import AppTitleVue from './components/AppTitle.vue'
 
+
+export default {
+  name: 'App',
+  components:{
+    AppTitle
+
+  }
+}
 </script>
 
-<template>
 
+<template>
+  <AppTitle/>
+  <h1>Componente App</h1>
 </template>
 
-<style scoped>
 
-
+<style>
+body {
+  background-color: lightcoral;
+  color: darkslateblue;
+}
 </style>
