@@ -10,6 +10,9 @@ export default {
 </template>
 
 
-<style>
-
+<style scoped>
+h1 {
+  text-align: center;
+  margin: 20px;
+}
 </style>
